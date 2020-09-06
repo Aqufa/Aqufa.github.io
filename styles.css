@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+h1{
+    font-size: 4rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+ul{
+    font-size: 2rem;
+    list-style-type: none;
+}
+
+.main-head{
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#logo{
+    padding-top: 1rem;  
+    text-align: center;
+    color: rgb(243, 178, 14);
+    /* font-family: 'Rouge Script', cursive; */
+    /* font-family: 'Arizonia', cursive; */
+    /* font-family: 'Great Vibes', cursive; */
+    font-family: 'Playfair Display', serif;
+    font-size: 7rem;
+    
+    
+}
+.nav1{
+    width: 100vw;
+    min-height: 15vh;
+    margin: auto;
+    background: rgb(38, 38, 116);
+  
+}
+
+.nav2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    
+    background: rgb(25, 25, 73);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li{
+    flex: 1 1 20vh;
+    padding-top: 0.2rem;
+    min-height: 5vh;
+    text-align: center;
+    
+    transition-duration: 0.6s;
+    
+}
+
+.nav2 a{
+    font-family: 'Poppins', sans-serif;
+    color: goldenrod;
+}
+li:hover{
+    background: rgb(59, 59, 131);
+    border-left: 1.7px solid goldenrod;
+    border-right: 1.7px solid goldenrod;
+    
+}
+
+.dates{
+    min-height: 72vh;
+    background: linear-gradient(rgba(0,0,0,0.3), transparent) ,url(./img/pexels-naim-benjelloun-2291592.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.first{
+    color: rgb(233, 211, 211);
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+}
+.second{
+    color: rgb(233, 211, 211);
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    text-align: center;
+}
+footer{
+    min-height: 5vh;
+    background: rgb(38, 38, 116);
+    color: goldenrod;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 0.8rem;
+    word-spacing: 0.2rem;
+}
+span{
+    color: rgb(235, 187, 65);
+}
+.btn{
+    border: none;
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem 5rem;
+    font-size: 2.4rem;
+    /* background: rgb(233, 184, 59); */
+    background: rgb(25, 25, 73);
+    color: goldenrod;
+    border-radius: 0.5rem;
+    transition-duration: 0.6s;
+}
+.btn:hover{
+    background: goldenrod;
+    color: rgb(25, 25, 73);
+}
+@media screen and (max-width: 600px){
+    html{
+        font-size: 50%;
+    }
+    .first{
+        text-align: center;
+    }
+    #logo{
+        font-size: 6rem;
+    }
+    
+   
+}
+
+
