@@ -125,7 +125,7 @@ footer ul{
 .social li{
     height: 3rem;
     width: 3rem;
-    background: goldenrod;
+    background: rgb(207, 157, 28);
     border-radius: 2.1rem;
     transition-duration: 0.6s;
     
