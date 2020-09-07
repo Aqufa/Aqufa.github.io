@@ -58,7 +58,7 @@ ul{
     align-items: center;
 }
 
-li{
+.khajoor li{
     flex: 1 1 20vh;
     padding-top: 0.2rem;
     min-height: 5vh;
@@ -72,7 +72,7 @@ li{
     font-family: 'Poppins', sans-serif;
     color: goldenrod;
 }
-li:hover{
+.khajoor li:hover{
     background: rgb(59, 59, 131);
     border-left: 1.7px solid goldenrod;
     border-right: 1.7px solid goldenrod;
@@ -103,7 +103,7 @@ li:hover{
     text-align: center;
 }
 footer{
-    min-height: 5vh;
+    min-height: 15vh;
     background: rgb(38, 38, 116);
     color: goldenrod;
     text-align: center;
@@ -111,6 +111,23 @@ footer{
     font-family: 'Poppins', sans-serif;
     padding-top: 0.8rem;
     word-spacing: 0.2rem;
+}
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 15vh;
+    align-items: center;
+    width: 60vw;
+    margin: auto;
+    
+}
+.social li{
+    min-height: 5rem;
+    
+}
+.social img{
+    height: 3rem;
 }
 span{
     color: rgb(235, 187, 65);
