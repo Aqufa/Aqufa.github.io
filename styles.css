@@ -125,13 +125,14 @@ footer ul{
 .social li{
     height: 3rem;
     width: 3rem;
-    background: rgb(207, 157, 28);
+    background: rgb(38, 38, 116);
     border-radius: 5rem;
     transition-duration: 0.6s;
     
 }
 .social li:hover{
-    background: rgb(38, 38, 116);
+    background: rgb(207, 157, 28);
+    
     
 
 }
