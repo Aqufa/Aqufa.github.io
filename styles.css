@@ -123,8 +123,17 @@ footer ul{
     
 }
 .social li{
-    min-height: 5rem;
+    height: 3rem;
+    width: 3rem;
+    background: goldenrod;
+    border-radius: 2.1rem;
+    transition-duration: 0.6s;
     
+}
+.social li:hover{
+    background: rgb(38, 38, 116);
+    
+
 }
 .social img{
     height: 3rem;
