@@ -80,7 +80,7 @@ ul{
 }
 
 .dates{
-    min-height: 72vh;
+    min-height: 80vh;
     background: linear-gradient(rgba(0,0,0,0.3), transparent) ,url(./img/pexels-naim-benjelloun-2291592.jpg);
     background-repeat: no-repeat;
     background-size: cover;
